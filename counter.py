@@ -1,7 +1,6 @@
 import re
 
 checklist = []
-flag = -1
 lastdata = {}
 contacts = []
 
