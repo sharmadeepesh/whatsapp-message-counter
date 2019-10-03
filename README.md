@@ -6,3 +6,9 @@ Exported chat data from Whatsapp group is taken as the input. The phone numbers 
 The script also returns the name of the contact that has sent the most number of messages in the group. Now, you know who's the spammer in your group. :p
 
 Note: The script does not count stickers as messages. This is because exported whatsapp chat does not include stickers.
+
+<h3>Dummy Output</h3>
+<strong>python3 counter.py</strong> 
+Output :- {'Sample ': 2, 'Sample Contact Name ': 7, 'Sample Contact ': 1, 'Sample Name ': 4, 'Contact Name ': 4}
+
+Sample Contact Name  is the spammer in this group with  7 messages.
