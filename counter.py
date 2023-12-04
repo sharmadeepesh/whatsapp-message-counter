@@ -47,7 +47,7 @@ def extract_data(string):
     flatten_list(contacts)
 
 def open_file():
-    file = open("data.txt",'r')
+    file = open("data.txt",'r', errors='ignore')
     string = file.read()
     string = string.splitlines()
     extract_data(string)
